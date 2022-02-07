@@ -1,7 +1,7 @@
 # TypeScript - Maps
 
 * TypeScript
-* Faker (faker)
+* Faker (faker @types/faker)
 
 ```
 parcel index.html

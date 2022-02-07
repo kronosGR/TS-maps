@@ -1,6 +1,5 @@
 import faker from 'faker';
 
-
 class User {
   name: string;
   location: {
@@ -8,8 +7,11 @@ class User {
     lng: number;
   };
 
-  constructor(){
-
+  constructor() {
+    this.name = faker.name.firstName();
+    this.location = {
+      lat: parseFloat(faker.address.latitude()),
+      lng: parseFloat(faker.address.longitude()),
+    };
   }
-
 }
