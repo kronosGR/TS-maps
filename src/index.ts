@@ -6,4 +6,6 @@ const user = new User();
 console.log(user)
 
 const company = new Company();
-console.log('compant', company);
+console.log('company', company);
+
+google
